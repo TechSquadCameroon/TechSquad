@@ -52,7 +52,7 @@ const members = [
     image: emmaPhoto,
   },
   {
-    name: "KIMBI DENIS KINJUO",
+    name: "Kimbi Denis Kinjuo",
     role: "Division Lead",
     field: "Software Engineering",
     skills: "Frontend development, prompt engineering, social media management, and import/export specialization.",
@@ -91,7 +91,7 @@ const members = [
     github: "",
   },
   {
-    name: "KANGNUOH ADRIAN",
+    name: "Kangnuoh Adrian",
     role: "Marketing and Branding",
     field: "Software Engineering",
     skills: "Public speaking and marketing.",
