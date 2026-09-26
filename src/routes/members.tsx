@@ -12,6 +12,8 @@ import darlingtonPhoto from "../../images/Professional pictures_/Darlington.jpg"
 import denisPhoto from "../../images/Professional pictures_/Denis.png";
 import emmaPhoto from "../../images/Professional pictures_/Emma.jpg";
 import jessicaPhoto from "../../images/Professional pictures_/Jessica.jpg";
+import luciePhoto from "../../images/Professional pictures_/Lucie.jpeg";
+import adrianPhoto from "../../images/Professional pictures_/Adrian.jpeg";
 import preciousPhoto from "../../images/Professional pictures_/Precious.jpg";
 import ramsonPhoto from "../../images/Professional pictures_/Ramson.jpg";
 import meeknessPhoto from "../../images/Professional pictures_/Meekness.jpg";
@@ -52,7 +54,7 @@ const members = [
     image: emmaPhoto,
   },
   {
-    name: "KIMBI DENIS KINJUO",
+    name: "Kimbi Denis Kinjuo",
     role: "Division Lead",
     field: "Software Engineering",
     skills: "Frontend development, prompt engineering, social media management, and import/export specialization.",
@@ -91,13 +93,14 @@ const members = [
     github: "",
   },
   {
-    name: "KANGNUOH ADRIAN",
+    name: "Kangnuoh Adrian",
     role: "Marketing and Branding",
     field: "Software Engineering",
     skills: "Public speaking and marketing.",
     message: "I am passionate about solving basic African problems with technology and helping Africa know what TECHSQUAD has to offer.",
     linkedin: "https://www.linkedin.com/in/kangnouhadrian?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/kangnuohadrian-max",
+    image: adrianPhoto,
   },
   {
     name: "Ngamfon Darlington",
@@ -128,6 +131,7 @@ const members = [
     linkedin: "",
     github: "",
     image: ramsonPhoto,
+    imagePosition: "center 15%",
   },
   {
     name: "Wirnka Meekness",
@@ -157,6 +161,7 @@ const members = [
     message: "I am passionate about using technology to solve real-world problems and growing with people who share the same vision.",
     linkedin: "",
     github: "https://github.com/FORGHABANGE?tab=repositories",
+    image: luciePhoto,
   },
 ];
 
@@ -262,7 +267,8 @@ function MembersPage() {
                     src={member.image}
                     alt={`${member.name} professional portrait`}
                     loading="lazy"
-                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-[1.02]"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                    style={{ objectPosition: member.imagePosition ?? "center" }}
                   />
                 ) : (
                   <span className="grid h-full w-full place-items-center bg-white/5 text-4xl font-black tracking-normal text-white shadow-glass backdrop-blur">
