@@ -1,0 +1,85 @@
+# TechSquad Cameroon
+
+> Empowering Africa's digital future.
+
+TECHSQUAD Cameroon is a student-led software team that builds web and software solutions, trains young digital talent, and prepares **LaneForge** — a career-building platform that guides students and youths toward careers that fit them and helps them build real skills.
+
+## Our Mission
+
+TECHSQUAD Cameroon empowers Africa's digital future by building software infrastructure, training young talent, and launching practical solutions like LaneForge.
+
+## Our Vision
+
+We started as students. We are building for Africa. Our long-term goal is to create infrastructure software solutions that empower Africa's digital future — technology that solves real problems with minimal resources, built by a team that proves impactful systems need smart engineering and team spirit.
+
+## What We Do
+
+- **Software infrastructure** — web and software solutions built around real problems people actually use.
+- **Training young talent** — members grow through real projects, teamwork, hackathons, and mentorship.
+- **LaneForge** — our career-building platform, preparing for launch.
+
+## Our Values
+
+| Value                       | What it means                                                                                           |
+| --------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **African impact**          | We focus on practical problems around students, youths, communities, and digital access.                |
+| **Learning by building**    | Members grow through real projects, teamwork, hackathons, and mentorship.                               |
+| **Team spirit**             | Design, development, growth, and operations work together instead of moving in silos.                   |
+| **Software infrastructure** | Our long-term goal is to create infrastructure software solutions that empower Africa's digital future. |
+
+## Our History
+
+| When                  | Milestone                                                                                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **October 2025**      | TECHSQUAD began at VISHI Higher Institute as a student initiative tech team built around learning, collaboration, and practical software problem solving.                                 |
+| **November 30, 2025** | At the CodeConnect conference, the team introduced LaneForge, a career-building platform that guides youths and students toward careers that fit them and helps them build actual skills. |
+| **April 6–7, 2026**   | TECHSQUAD attended its first hackathon, CAMIHACK 2026 in Buea, made important connections, and learned from builders across the ecosystem.                                                |
+| **2026**              | While preparing LaneForge for launch, the team began providing services to clients and building a student user base.                                                                      |
+
+## This Website
+
+The official TechSquad Cameroon website — a bilingual (EN/FR) site presenting the team, its services, projects, and LaneForge.
+
+Built with:
+
+- [TanStack Start](https://tanstack.com/start) (file-based routing via [TanStack Router](https://tanstack.com/router)) + React 19 + TypeScript
+- Tailwind CSS v4 + shadcn/ui primitives
+- Framer Motion animations
+- Netlify-ready deployment
+
+### Getting started
+
+```bash
+npm install
+
+# Start the dev server
+npm run dev
+
+# Production build
+npm run build
+```
+
+### Useful scripts
+
+| Script            | Description                       |
+| ----------------- | --------------------------------- |
+| `npm run dev`     | Start the Vite dev server         |
+| `npm run build`   | Production build                  |
+| `npm run preview` | Preview the production build      |
+| `npm run lint`    | Run ESLint                        |
+| `npm run format`  | Format the codebase with Prettier |
+
+## Contributing
+
+Content accuracy matters to us. If you spot an issue with member names, roles, or any site copy, please open an issue or a pull request — see `CONTENT-FIXES-README.md` for the ongoing content review checklist.
+
+## Contact
+
+- **Email:** [techsquadcameroon@gmail.com](mailto:techsquadcameroon@gmail.com)
+- **Facebook:** [techsquadcameroon](https://www.facebook.com/techsquadcameroon)
+- **LinkedIn:** [techsquadcm](https://www.linkedin.com/company/techsquadcm/)
+- **Location:** Cameroon
+
+---
+
+© TECHSQUAD Cameroon. All rights reserved.
